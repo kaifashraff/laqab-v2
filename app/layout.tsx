@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Cinzel, Poppins } from 'next/font/google';
 import './globals.css';
 import { ReduxProvider } from '@/components/providers/ReduxProvider';
 import Navbar from '@/components/layout/Navbar';
@@ -11,20 +10,7 @@ import QuickViewPopup from '@/components/popups/QuickViewPopup';
 import SizeGuidePopup from '@/components/popups/SizeGuidePopup';
 import LoginPopup from '@/components/popups/LoginPopup';
 import MobileMenu from '@/components/layout/MobileMenu';
-
-const cinzel = Cinzel({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-cinzel',
-  display: 'swap',
-});
-
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-  variable: '--font-poppins',
-  display: 'swap',
-});
+import FuturisticBackground from '@/components/FuturisticBackground';
 
 export const metadata: Metadata = {
   title: 'LAQAB | Premium Ethnic Menswear - Sherwani, Kurta, Wedding Wear',
@@ -60,12 +46,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${cinzel.variable} ${poppins.variable}`}>
+    <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" />
+        {/* Futuristic Fonts */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body>
         <ReduxProvider>
+          {/* 3D Animated Background */}
+          <FuturisticBackground />
+          
           <Navbar />
           <main>{children}</main>
           <Footer />
