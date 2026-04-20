@@ -13,6 +13,8 @@ interface UIState {
   searchQuery: string;
   isSearchOpen: boolean;
   mobileMenuOpen: boolean;
+  cartOpen: boolean;
+  wishlistOpen: boolean;
   recentlyViewed: string[];
   notifications: Notification[];
 }
@@ -35,6 +37,8 @@ const initialState: UIState = {
   searchQuery: '',
   isSearchOpen: false,
   mobileMenuOpen: false,
+  cartOpen: false,
+  wishlistOpen: false,
   recentlyViewed: [],
   notifications: [],
 };
@@ -80,6 +84,18 @@ const uiSlice = createSlice({
       state.mobileMenuOpen = false;
     },
 
+    openCart: (state) => {
+      state.cartOpen = true;
+    },
+
+    closeCart: (state) => {
+      state.cartOpen = false;
+    },
+
+    toggleWishlist: (state) => {
+      state.wishlistOpen = !state.wishlistOpen;
+    },
+
     addToRecentlyViewed: (state, action: PayloadAction<string>) => {
       const productId = action.payload;
       state.recentlyViewed = state.recentlyViewed.filter((id) => id !== productId);
@@ -113,6 +129,9 @@ export const {
   toggleSearch,
   toggleMobileMenu,
   closeMobileMenu,
+  openCart,
+  closeCart,
+  toggleWishlist,
   addToRecentlyViewed,
   addNotification,
   removeNotification,

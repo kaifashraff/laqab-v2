@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '@/lib/store';
-import { openCart, toggleWishlist, toggleSearch } from '@/lib/uiSlice';
+import { toggleWishlist, toggleSearch, openCart } from '@/lib/uiSlice';
+import { openCart as openCartAction } from '@/lib/cartSlice';
 import { toggleMobileMenu } from '@/lib/uiSlice';
 import { ShoppingBag, Heart, Search, Menu, X, User } from 'lucide-react';
 
@@ -114,7 +115,7 @@ export default function Navbar() {
               
               <button 
                 className="navbar-action hide-mobile"
-                onClick={() => dispatch(openCart())}
+                onClick={() => dispatch(openCartAction())}
                 aria-label="Cart"
               >
                 <ShoppingBag size={20} />

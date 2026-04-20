@@ -7,7 +7,7 @@ import Image from 'next/image';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '@/lib/cartSlice';
 import { addToWishlist } from '@/lib/wishlistSlice';
-import { openCart } from '@/lib/uiSlice';
+import { openCart as openCartAction } from '@/lib/cartSlice';
 import { products, getProductsByCollection, getProductsByCategory, getFeaturedProducts } from '@/data/products';
 import { collections } from '@/data/collections';
 import { Star, Heart, ShoppingBag, Filter, X, SlidersHorizontal } from 'lucide-react';
@@ -254,7 +254,7 @@ export default function ProductsPage() {
                               selectedSize: product.sizes[0],
                               selectedColor: product.colors[0].name,
                             }));
-                            dispatch(openCart());
+                            dispatch(openCartAction());
                           }}
                         >
                           <ShoppingBag size={20} />

@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '@/lib/cartSlice';
 import { addToWishlist } from '@/lib/wishlistSlice';
-import { openCart } from '@/lib/uiSlice';
+import { openCart as openCartAction } from '@/lib/cartSlice';
 import { products, getFeaturedProducts, getTrendingProducts } from '@/data/products';
 import { collections, getFeaturedCollections } from '@/data/collections';
 import { Star, Heart, ShoppingBag, ArrowRight, Truck, Shield, RotateCcw, Award } from 'lucide-react';
@@ -171,7 +171,7 @@ export default function HomePage() {
                           selectedSize: product.sizes[0],
                           selectedColor: product.colors[0].name,
                         }));
-                        dispatch(openCart());
+                        dispatch(openCartAction());
                       }}
                       title="Add to Cart"
                     >
@@ -255,7 +255,7 @@ export default function HomePage() {
                           selectedSize: product.sizes[0],
                           selectedColor: product.colors[0].name,
                         }));
-                        dispatch(openCart());
+                        dispatch(openCartAction());
                       }}
                     >
                       <ShoppingBag size={20} />
