@@ -22,19 +22,19 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <span className="hero-subtitle">Premium Ethnic Menswear</span>
+          <span className="hero-subtitle">Ahmedabad Se, Pure Love Se ❤️</span>
           <h1 className="hero-title">
-            Where <span className="text-gold">Tradition</span> Meets <span className="text-gold">Elegance</span>
+            Sherwanis Jo Dil <span className="text-gold">Chura Le</span>
           </h1>
           <p className="hero-description">
-            Discover exquisite sherwanis, kurtas, and wedding wear crafted with the finest Indian artistry. Made for the modern gentleman who honors heritage.
+            Shadi ho ya engagement, reception ho ya casual event - LAQAB ke sherwanis mein aapka style baar bar dikhta hai. Gujarat mein tailor ki tarah, har outfit fit baithti hai. Agar aapko pasand nahi aaya toh 7 din mein paise wapas!
           </p>
           <div className="hero-actions">
             <Link href="/collections" className="btn btn-primary btn-lg">
-              Explore Collections
+              Collection Dekho
             </Link>
             <Link href="/products?collection=wedding-special" className="btn btn-outline btn-lg">
-              Wedding Special
+              Shaadi Wale Dekho
             </Link>
           </div>
         </div>
@@ -58,28 +58,28 @@ export default function HomePage() {
               <Truck size={32} />
               <div>
                 <h4>Free Shipping</h4>
-                <p>On orders above ₹5,000</p>
+                <p>₹5000 se upar ke orders pe</p>
               </div>
             </div>
             <div className="trust-item">
               <Shield size={32} />
               <div>
                 <h4>Secure Payment</h4>
-                <p>100% secure transactions</p>
+                <p>100% safe transactions</p>
               </div>
             </div>
             <div className="trust-item">
               <RotateCcw size={32} />
               <div>
                 <h4>Easy Returns</h4>
-                <p>7 days return policy</p>
+                <p>7 din mein paise wapas</p>
               </div>
             </div>
             <div className="trust-item">
               <Award size={32} />
               <div>
                 <h4>Premium Quality</h4>
-                <p>Handcrafted with care</p>
+                <p>Handcrafted items</p>
               </div>
             </div>
           </div>
@@ -90,10 +90,10 @@ export default function HomePage() {
       <section className="section collections-section">
         <div className="container">
           <div className="section-header">
-            <span className="section-subtitle">Our Collections</span>
-            <h2 className="section-title">Timeless Elegance</h2>
+            <span className="section-subtitle">Hamare Collections</span>
+            <h2 className="section-title">Jo Log Sabse Zyada Maangte Hain</h2>
             <p className="section-description">
-              Explore our curated collections designed for every occasion
+              Sherwani ho ya Kurta, Wedding Special ho ya Festival Collection - har collection mein quality aur style dono milega
             </p>
           </div>
           <div className="collections-grid">
@@ -128,9 +128,9 @@ export default function HomePage() {
         <div className="container">
           <div className="section-header">
             <span className="section-subtitle">Featured</span>
-            <h2 className="section-title">Bestsellers</h2>
+            <h2 className="section-title">Sabse Jyada Bikne Waale</h2>
             <p className="section-description">
-              Our most loved pieces, chosen by customers like you
+              Jinhe dekh ke log bolte hain "yaar yeh kahan se laaya"
             </p>
           </div>
           <div className="products-grid">
@@ -201,7 +201,7 @@ export default function HomePage() {
           </div>
           <div className="section-footer">
             <Link href="/products" className="btn btn-outline">
-              View All Products
+              Saare Products Dekho
               <ArrowRight size={18} />
             </Link>
           </div>
@@ -212,10 +212,10 @@ export default function HomePage() {
       <section className="cta-section">
         <div className="container">
           <div className="cta-content">
-            <h2>Wedding Season Special</h2>
-            <p>Get up to 25% off on wedding sherwanis. Limited time offer!</p>
+            <h2>Shadi Season Mei Discount!</h2>
+            <p>Wedding sherwanis pe 25% tak kiye. Bas limited time ke liye!</p>
             <Link href="/products?collection=wedding-special" className="btn btn-primary btn-lg">
-              Shop Wedding Collection
+              Shadi Collection Dekho
             </Link>
           </div>
         </div>
@@ -226,7 +226,7 @@ export default function HomePage() {
         <div className="container">
           <div className="section-header">
             <span className="section-subtitle">Trending Now</span>
-            <h2 className="section-title">Hot This Season</h2>
+            <h2 className="section-title">Is Week Jo Sabse Jyada Dekha Gaya</h2>
           </div>
           <div className="products-grid">
             {trendingProducts.slice(0, 4).map((product) => (
@@ -283,8 +283,8 @@ export default function HomePage() {
       <section className="section testimonials-section">
         <div className="container">
           <div className="section-header">
-            <span className="section-subtitle">What They Say</span>
-            <h2 className="section-title">Customer Love</h2>
+            <span className="section-subtitle">Customers Bol Rahe Hain</span>
+            <h2 className="section-title">Real Reviews, Real People</h2>
           </div>
           <div className="testimonials-grid">
             <div className="testimonial-card">
@@ -294,13 +294,13 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="testimonial-text">
-                "Got my wedding sherwani from Laqab and received countless compliments. The quality of embroidery was exceptional!"
+                "Bhai, maine apni shadi ke liye LAQAB se sherwani li. Photos mein toh waah lag raha tha, but real mein bhi utna hi sundar tha. Zyada important hai ki poore function mein comfortable raha - koi irritation nahi, koi pain nahi. Bas ek baar tailor leke jaana padega length ke liye."
               </p>
               <div className="testimonial-author">
-                <div className="author-avatar">RK</div>
+                <div className="author-avatar">IK</div>
                 <div>
-                  <h5>Rahul Kapoor</h5>
-                  <p>Mumbai</p>
+                  <h5>Imran Khan</h5>
+                  <p>Surat, Gujarat</p>
                 </div>
               </div>
             </div>
@@ -311,13 +311,13 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="testimonial-text">
-                "The attention to detail is remarkable. Every piece tells a story of rich craftsmanship. Highly recommended!"
+                "Maine gift mein maang ke di thi LAQAB ki kurta. Jaise ready hui, waise hi bheja - packaging itni acchi thi ki gift waale ko toh gift dekh ke hi khush ho gaye. Quality dekh ke lagta hai ki asli mein mehnat di gayi hai."
               </p>
               <div className="testimonial-author">
-                <div className="author-avatar">AS</div>
+                <div className="author-avatar">YS</div>
                 <div>
-                  <h5>Arjun Sharma</h5>
-                  <p>Delhi</p>
+                  <h5>Yusuf Shaikh</h5>
+                  <p>Vadodara</p>
                 </div>
               </div>
             </div>
@@ -328,13 +328,13 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="testimonial-text">
-                "Ordered from overseas and the delivery was seamless. The packaging was luxurious and the sherwani exceeded expectations."
+                "UK se order kiya for brothers wedding. Delivery smooth thi, 12 din mein aa gayi. Colour jo website pe dikhaya tha waise hi tha - kabhi kabhi photo se alag aata hai but yahan nahi. Will order again for sure."
               </p>
               <div className="testimonial-author">
-                <div className="author-avatar">PM</div>
+                <div className="author-avatar">FA</div>
                 <div>
-                  <h5>Priyaan Mehta</h5>
-                  <p>London, UK</p>
+                  <h5>Firoz Ansari</h5>
+                  <p>Birmingham, UK</p>
                 </div>
               </div>
             </div>
@@ -346,11 +346,11 @@ export default function HomePage() {
       <section className="newsletter-section">
         <div className="container">
           <div className="newsletter-content">
-            <h2>Join the LAQAB Family</h2>
-            <p>Subscribe to receive exclusive offers, new collection updates, and style inspiration.</p>
+            <h2>LAQAB Family Mein Shamil Ho Jao</h2>
+            <p>Naye products, discount offers, aur style tips - sabse pehle aapko pata chalega!</p>
             <form className="newsletter-form">
-              <input type="email" placeholder="Enter your email address" />
-              <button type="submit" className="btn btn-primary">Subscribe</button>
+              <input type="email" placeholder="Apna email daalo" />
+              <button type="submit" className="btn btn-primary">Subscribe Karo</button>
             </form>
           </div>
         </div>

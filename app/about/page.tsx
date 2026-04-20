@@ -10,8 +10,8 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="about-hero">
         <div className="container">
-          <h1>About LAQAB</h1>
-          <p className="tagline">Where Tradition Meets Elegance</p>
+          <h1>LAQAB Ke Baare Mein</h1>
+          <p className="tagline">Ghar Baithe Shop Karna, Bilkul Dukaan Jaisa!</p>
         </div>
       </section>
 
@@ -20,16 +20,16 @@ export default function AboutPage() {
         <div className="container">
           <div className="story-grid">
             <div className="story-content">
-              <span className="section-subtitle">Our Story</span>
-              <h2>Crafting Heritage, One Stitch at a Time</h2>
+              <span className="section-subtitle">Hamari Kahani</span>
+              <h2>LAQAB Kaise Bana</h2>
               <p>
-                LAQAB was born from a deep passion for preserving and celebrating India's rich textile heritage. Our name, derived from the Urdu word for 'pride,' reflects our commitment to creating ethnic menswear that honors tradition while embracing modern sensibilities.
+                LAQAB ka matlab hai "garv" - aur isiliye yeh naam rakha kyunki jo hum banate hain usse pehennе waale ko garv hota hai. Shuru humne Ahmedabad se kiya, yahan ki craftsmanship duniya mein sabse best hai.
               </p>
               <p>
-                Founded in Ahmedabad, the heart of India's textile industry, we work directly with master artisans who have inherited centuries-old embroidery techniques. Every piece in our collection is a testament to their skill and dedication.
+                Hum apne aap ko dusre online stores jaisa nahi samajhte. Hum ek chhoti si dukan hain jismein ek designer hai, ek tailor hai, aur ek jo orders pack karta hai. Bahut personal hai, bahut care ke saath kaam hota hai.
               </p>
               <p>
-                From the finest silk sherwanis for weddings to elegantly embroidered kurtas for festivals, LAQAB brings you authentic Indian craftsmanship, reimagined for the contemporary gentleman.
+                Sherwani ho ya kurta, har piece mein utni mehnat hai jitni kisi bhi gallery-quality item mein hogi. kyunki hum jaante hain ki aap isse shaadi mein pehennе ho, pooja mein pehennе ho, ya kisi special occasion pe - har moment important hai.
               </p>
             </div>
             <div className="story-image">
@@ -49,37 +49,37 @@ export default function AboutPage() {
       <section className="section values-section">
         <div className="container">
           <div className="section-header">
-            <span className="section-subtitle">What We Stand For</span>
-            <h2>Our Values</h2>
+            <span className="section-subtitle">Kya Karna Chahte Hain</span>
+            <h2>Hamare Principles</h2>
           </div>
           <div className="values-grid">
             <div className="value-card">
               <div className="value-icon">
                 <Award size={32} />
               </div>
-              <h3>Premium Quality</h3>
-              <p>We source only the finest fabrics and work with master artisans to ensure every piece meets our exacting standards.</p>
+              <h3>Quality Pe Koi Compromise Nahi</h3>
+              <p>Jo fabric upar class hai wohi use karte hain. Jo embroidery karte hain woh masters hain. Cheap items nahi banate, simple hai.</p>
             </div>
             <div className="value-card">
               <div className="value-icon">
                 <Heart size={32} />
               </div>
-              <h3>Authentic Craftsmanship</h3>
-              <p>Every embroidery, every stitch tells a story. We preserve traditional techniques passed down through generations.</p>
+              <h3>Authentic Hai Toh Authentic Hai</h3>
+              <p>Machine ka kaam nahi, hand work hai. Pure zari, pure chikankari, jo hai woh asli mein hai. Koi copy-paste nahi.</p>
             </div>
             <div className="value-card">
               <div className="value-icon">
                 <Sparkles size={32} />
               </div>
-              <h3>Modern Elegance</h3>
-              <p>We blend heritage with contemporary design, creating pieces that are both timeless and relevant to today's style.</p>
+              <h3>Modern Style, Traditional Soul</h3>
+              <p>Puraana achha lagta hai but naya bhi toh dikhna hai. Humari sherwanis mein dono milte hain - heritage look but contemporary cut.</p>
             </div>
             <div className="value-card">
               <div className="value-icon">
                 <Truck size={32} />
               </div>
-              <h3>Global Reach</h3>
-              <p>From Ahmedabad to the world, we ship our creations to Indian communities across the globe.</p>
+              <h3>Duniya Bhar Mein Pahunch</h3>
+              <p>UK, USA, Canada, Dubai - jahan bhi Indian communities hain wahan se order aate hain. Hum handle kar lete hain worldwide shipping.</p>
             </div>
           </div>
         </div>
@@ -89,8 +89,8 @@ export default function AboutPage() {
       <section className="section team-section">
         <div className="container">
           <div className="section-header">
-            <span className="section-subtitle">The Vision</span>
-            <h2>Our Founder</h2>
+            <span className="section-subtitle">Kon Chalta Hai</span>
+            <h2>Hamara Founder</h2>
           </div>
           <div className="team-content">
             <div className="team-image">
@@ -106,7 +106,7 @@ export default function AboutPage() {
               <h3>Kaif Ashraf</h3>
               <p className="role">Founder & Creative Director</p>
               <p>
-                "I started LAQAB with a simple vision - to make premium ethnic wear accessible to every Indian man, anywhere in the world. Our commitment to quality and authenticity drives everything we do."
+                "Main khud ek designer hoon aur mujhe pata hai ki ek acchi sherwani kya hoti hai. LAQAB shuru kiya kyunki mein chahta tha ki har Indian man ko accessible ho premium ethnic wear. Paise bache toh quality bhi aayi - yeh meri promise hai."
               </p>
             </div>
           </div>
@@ -116,10 +116,10 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="section cta-section">
         <div className="container">
-          <h2>Ready to Experience LAQAB?</h2>
-          <p>Explore our collections and find your perfect ethnic ensemble.</p>
+          <h2>LAQAB Try Karna Chahte Ho?</h2>
+          <p>Browse karo collections, dekho products, aur agar koi sawaal hai toh WhatsApp pe poocho. Hum der se answer nahi karte (usually turant!).</p>
           <Link href="/products" className="btn btn-primary btn-lg">
-            Shop Now
+            Products Dekho
           </Link>
         </div>
       </section>

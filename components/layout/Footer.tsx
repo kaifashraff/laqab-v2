@@ -24,13 +24,13 @@ export default function Footer() {
         <div className="container">
           <div className="newsletter-grid">
             <div className="newsletter-content">
-              <h3>Join the LAQAB Family</h3>
-              <p>Subscribe to receive exclusive offers, new collection updates, and style inspiration.</p>
+              <h3>LAQAB Family Mein Aao</h3>
+              <p>Naye products, discount alerts, aur style tips - sabke liye free hai!</p>
             </div>
             <form onSubmit={handleNewsletterSubmit} className="newsletter-form">
               <input
                 type="email"
-                placeholder="Enter your email address"
+                placeholder="Email daalo"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
@@ -51,7 +51,7 @@ export default function Footer() {
             <div className="footer-column footer-brand">
               <h2 className="footer-logo">LAQAB</h2>
               <p className="footer-tagline">
-                Where tradition meets elegance. Premium ethnic menswear crafted for the modern gentleman.
+                Ahmedabad se, pyaar se. Premium sherwanis aur kurtas jo aapke wedding aur festivals mein chhapa chhapa marein.
               </p>
               <div className="footer-social">
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">

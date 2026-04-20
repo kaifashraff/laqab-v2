@@ -28,8 +28,8 @@ export default function ContactPage() {
     <div className="contact-page">
       <div className="container">
         <div className="page-header">
-          <h1>Contact Us</h1>
-          <p>We'd love to hear from you. Get in touch with us!</p>
+          <h1>Contact Karo</h1>
+          <p>Koi sawaal hai? Order跟踪 kar.na hai? Yaap bath kar.na hai? Hum sun.ne ke liye ready hain!</p>
         </div>
 
         <div className="contact-grid">
@@ -79,7 +79,7 @@ export default function ContactPage() {
               <MessageCircle size={24} />
               <div>
                 <h3>WhatsApp</h3>
-                <p>Chat with us for quick responses!</p>
+                <p>Sabse fast response WhatsApp pe milta hai!</p>
               </div>
               <a href="https://wa.me/919876543210" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
                 Chat Now
@@ -92,12 +92,12 @@ export default function ContactPage() {
             {submitted ? (
               <div className="success-message">
                 <div className="success-icon">✓</div>
-                <h3>Message Sent!</h3>
-                <p>Thank you for contacting us. We'll get back to you within 24 hours.</p>
+                <h3>Message Bhej Diya!</h3>
+                <p>Mil gaya! 24 ghante ke andar answer aayega. WhatsApp pe message bhi kar sakte ho for faster reply.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="contact-form">
-                <h2>Send us a Message</h2>
+                <h2>Message Likh.o</h2>
                 
                 <div className="form-row">
                   <div className="form-group">
@@ -161,7 +161,7 @@ export default function ContactPage() {
                     onChange={handleChange}
                     required
                     rows={6}
-                    placeholder="How can we help you?"
+                    placeholder="Kya bolna chahte ho?"
                   />
                 </div>
 
