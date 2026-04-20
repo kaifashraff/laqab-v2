@@ -10,7 +10,6 @@ import QuickViewPopup from '@/components/popups/QuickViewPopup';
 import SizeGuidePopup from '@/components/popups/SizeGuidePopup';
 import LoginPopup from '@/components/popups/LoginPopup';
 import MobileMenu from '@/components/layout/MobileMenu';
-import FuturisticBackground from '@/components/FuturisticBackground';
 
 export const metadata: Metadata = {
   title: 'LAQAB | Premium Ethnic Menswear - Sherwani, Kurta, Wedding Wear',
@@ -49,19 +48,16 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" />
-        {/* Futuristic Fonts */}
+        {/* Premium Ethnic Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
       </head>
       <body>
         <ReduxProvider>
-          {/* 3D Animated Background */}
-          <FuturisticBackground />
-          
           <Navbar />
           <main>{children}</main>
           <Footer />
