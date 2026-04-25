@@ -7,6 +7,19 @@ import { Award, Heart, Sparkles, Truck } from 'lucide-react';
 export default function AboutPage() {
   return (
     <div className="about-page">
+      {/* Hand Embroidered USP Banner */}
+      <div className="w-full bg-gradient-to-r from-[#800020] via-[#800020] to-[#6B001A] py-3 px-4 text-center">
+        <p className="text-[#FFF8E7] text-sm md:text-base font-medium">
+          <span className="text-[#D4AF37]">✨ Hand Embroidered by Skilled Karigars</span>
+          {' | '}
+          <span>Custom Orders Welcome</span>
+          {' | '}
+          <span>15-25 Days Delivery</span>
+          {' | '}
+          <Link href="/contact" className="ml-2 text-[#D4AF37] underline">Contact Us</Link>
+        </p>
+      </div>
+
       {/* Hero Section */}
       <section className="about-hero">
         <div className="container">
@@ -23,7 +36,7 @@ export default function AboutPage() {
               <span className="section-subtitle">Hamari Kahani</span>
               <h2>LAQAB Kaise Bana</h2>
               <p>
-                LAQAB ka matlab hai "garv" - aur isiliye yeh naam rakha kyunki jo hum banate hain usse pehennе waale ko garv hota hai. Shuru humne Ahmedabad se kiya, yahan ki craftsmanship duniya mein sabse best hai.
+                <strong>Every Laqab piece is hand embroidered by skilled karigars</strong> — not printed, not factory-made, not rushed. LAQAB ka matlab hai "garv" - aur isiliye yeh naam rakha kyunki jo hum banate hain usse pehenne waale ko garv hota hai. Shuru humne Ahmedabad se kiya, yahan ki craftsmanship duniya mein sabse best hai.
               </p>
               <p>
                 Hum apne aap ko dusre online stores jaisa nahi samajhte. Hum ek chhoti si dukan hain jismein ek designer hai, ek tailor hai, aur ek jo orders pack karta hai. Bahut personal hai, bahut care ke saath kaam hota hai.
