@@ -8,6 +8,17 @@ import { ArrowRight } from 'lucide-react';
 export default function CollectionsPage() {
   return (
     <div className="collections-page">
+      {/* Hand Embroidered USP Banner */}
+      <div className="w-full bg-gradient-to-r from-[#800020] via-[#800020] to-[#6B001A] py-3 px-4 text-center">
+        <p className="text-[#FFF8E7] text-sm md:text-base font-medium">
+          <span className="text-[#D4AF37]">✨ Hand Embroidered by Skilled Karigars</span>
+          {' | '}
+          <span>Custom Orders Welcome</span>
+          {' | '}
+          <span>15-25 Days Delivery</span>
+        </p>
+      </div>
+
       <div className="container">
         {/* Hero */}
         <div className="page-hero">
