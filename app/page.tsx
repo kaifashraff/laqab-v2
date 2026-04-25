@@ -19,6 +19,19 @@ export default function HomePage() {
 
   return (
     <div className="home">
+      {/* Announcement Banner */}
+      <div className="w-full bg-gradient-to-r from-[#800020] via-[#800020] to-[#6B001A] py-3 px-4 text-center">
+        <p className="text-[#FFF8E7] text-sm md:text-base font-medium tracking-wide">
+          <span className="text-[#D4AF37] font-semibold">✨ Hand Embroidered by Skilled Karigars</span>
+          {' | '}
+          <span className="text-[#FFF8E7]">Custom Orders Available</span>
+          {' | '}
+          <span className="text-[#FFF8E7]">15-25 Days Delivery</span>
+          {' | '}
+          <Link href="/contact" className="ml-2 text-[#D4AF37] underline hover:text-white transition-colors">Contact for Custom Design</Link>
+        </p>
+      </div>
+
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">

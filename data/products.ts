@@ -20,7 +20,7 @@ export const products: Product[] = [
     category: 'Sherwani',
     collection: 'Wedding Special',
     description:
-      'Yeh sherwani toh waahiman hai bhai! Poora zari ka kaam hai, haath lagao toh pata chalta hai. Shaadi mein koi bhi dekhke poochega "yaar yeh kahan se laaya?". Groom ho ya guest, koi bhi pehen lega toh log taare marte hain.',
+'Hand embroidered by skilled karigars - Yeh sherwani toh waahiman hai bhai! Poora zari ka kaam hai, haath lagao toh pata chalta hai. Shaadi mein koi bhi dekhke poochega "yaar yeh kahan se laaya?". Groom ho ya guest, koi bhi pehen lega toh log taare marte hain.',
     fabric: 'Pure Silk',
     work: 'Heavy Zari & Sequin Embroidery',
     occasion: 'Wedding, Reception, Engagement',
@@ -72,7 +72,7 @@ export const products: Product[] = [
     category: 'Sherwani',
     collection: 'Wedding Special',
     description:
-      'Maroon velvet ki sherwani - winter wedding ke liye perfect! Garmi mein zyada heavy lagegi but jab temperature kam ho toh isse better koi nahi. Stone work itna hai ki light mein chamakti hai like stars.',
+'Hand embroidered by skilled karigars - Maroon velvet ki sherwani - winter wedding ke liye perfect! Garmi mein zyada heavy lagegi but jab temperature kam ho toh isse better koi nahi. Stone work itna hai ki light mein chamakti hai like stars.',
     fabric: 'Premium Velvet',
     work: 'Stone & Bead Embroidery',
     occasion: 'Wedding, Reception',
@@ -113,7 +113,7 @@ export const products: Product[] = [
     category: 'Kurta',
     collection: 'Festival Collection',
     description:
-      'Diwaliwali golden kurta! Chhote bhai ki shadi ho ya office ki party, yeh kurta har jagah chalega. Churidar ke saath perfect match. Gharwalon ne bhi kaha "accha khareedha hai tu"',
+'Hand embroidered by skilled karigars - Diwaliwali golden kurta! Chhote bhai ki shadi ho ya office ki party, yeh kurta har jagah chalega. Churidar ke saath perfect match. Gharwalon ne bhi kaha "accha khareedha hai tu"',
     fabric: 'Cotton Silk',
     work: 'Golden Thread Embroidery',
     occasion: 'Festival, Pooja, Casual',
@@ -154,7 +154,7 @@ export const products: Product[] = [
     category: 'Kurta',
     collection: 'Festival Collection',
     description:
-      'Simple sila silk kurta - jaise ghar ki dadi banati thi. Collar pe light ka kaam hai, itna ki kaabil hai ki dikhta bhi hai aur zyada heavy bhi nahi. Poora din pehen raho, comfortable rehta hai.',
+'Hand embroidered by skilled karigars - Simple sila silk kurta - jaise ghar ki dadi banati thi. Collar pe light ka kaam hai, itna ki kaabil hai ki dikhta bhi hai aur zyada heavy bhi nahi. Poora din pehen raho, comfortable rehta hai.',
     fabric: 'Pure Silk',
     work: 'Light Embroidery',
     occasion: 'Festivals, Casual Gatherings',
@@ -183,7 +183,7 @@ export const products: Product[] = [
     category: 'Sherwani',
     collection: 'Wedding Special',
     description:
-      'Yeh toh poora package hai bhai! Sherwani + dupatta + matching bottom = complete wedding look. Zyada photo kheenchna, video call pe dikhate raho relatives ko. Groom ban ke aana hai toh isse better koi nahi.',
+'Hand embroidered by skilled karigars - Yeh toh poora package hai bhai! Sherwani + dupatta + matching bottom = complete wedding look. Zyada photo kheenchna, video call pe dikhate raho relatives ko. Groom ban ke aana hai toh isse better koi nahi.',
     fabric: 'Art Silk',
     work: 'Heavy Zari, Stone & Mirror Work',
     occasion: 'Wedding, Haldi, Mehendi',
@@ -235,7 +235,7 @@ export const products: Product[] = [
     category: 'Sherwani',
     collection: 'Wedding Special',
     description:
-      'Modern sherwani with traditional soul. Jo log traditional nahi pehen sakte unke liye perfect - black sherwani with subtle gold traces. Reception mein isse pehno, sabse alag dikhoge.',
+'Hand embroidered by skilled karigars - Modern sherwani with traditional soul. Jo log traditional nahi pehen sakte unke liye perfect - black sherwani with subtle gold traces. Reception mein isse pehno, sabse alag dikhoge.',
     fabric: 'Premium Blend',
     work: 'Minimalist Zari Work',
     occasion: 'Reception, Engagement, Party',
@@ -275,7 +275,7 @@ export const products: Product[] = [
     category: 'Kurta',
     collection: 'Festival Collection',
     description:
-      'Teej waali silk kurta! Holi, Diwali, Karwa Chauth - jo bhi festival ho, yeh kurta haath mein rakhni hai. White color ka advantage hai ki koi bhi accessory match kar jayega.',
+'Hand embroidered by skilled karigars - Teej waali silk kurta! Holi, Diwali, Karwa Chauth - jo bhi festival ho, yeh kurta haath mein rakhni hai. White color ka advantage hai ki koi bhi accessory match kar jayega.',
     fabric: 'Silk Blend',
     work: 'Subtle Embroidery',
     occasion: 'Festivals, Celebrations',
@@ -303,7 +303,7 @@ export const products: Product[] = [
     category: 'Sherwani',
     collection: 'Wedding Special',
     description:
-      'Neelkanth ki tarah - royal blue sherwani jismein peacock ki aatma hai. Kon sa sherwani sab pehente hain? Yeh pehno aur alag dikho.',
+'Hand embroidered by skilled karigars - Neelkanth ki tarah - royal blue sherwani jismein peacock ki aatma hai. Kon sa sherwani sab pehente hain? Yeh pehno aur alag dikho.',
     fabric: 'Silk Blend',
     work: 'Tonal Zari Embroidery',
     occasion: 'Wedding, Reception',
@@ -343,7 +343,7 @@ export const products: Product[] = [
     category: 'Sherwani',
     collection: 'Wedding Special',
     description:
-      'Set leke jaao aur shaadi mein tension free raho. Bottom bhi hai, dupatta bhi hai - bas shoes aur watch khud lao. Ghar baithe socho ki kitna shopping bachta hai.',
+'Hand embroidered by skilled karigars - Set leke jaao aur shaadi mein tension free raho. Bottom bhi hai, dupatta bhi hai - bas shoes aur watch khud lao. Ghar baithe socho ki kitna shopping bachta hai.',
     fabric: 'Art Silk',
     work: 'Heavy Embroidery',
     occasion: 'Wedding',
@@ -368,7 +368,7 @@ export const products: Product[] = [
     category: 'Kurta',
     collection: 'Festival Collection',
     description:
-      'Jo bhi sherwani pehen lo, white kurta toh andar se pehnna hi padta hai. Basic white kurta - ghar ki wardrobe ka essential item. Saal bhar pehni jaa sakti hai.',
+'Hand embroidered by skilled karigars - Jo bhi sherwani pehen lo, white kurta toh andar se pehnna hi padta hai. Basic white kurta - ghar ki wardrobe ka essential item. Saal bhar pehni jaa sakti hai.',
     fabric: 'Pure Cotton',
     work: 'None',
     occasion: 'Daily Wear, Casual',
@@ -408,7 +408,7 @@ export const products: Product[] = [
     category: 'Sherwani',
     collection: 'Wedding Special',
     description:
-      'Maroon rang - shadi ki shaan. Zardozi ka kaam puraana hai, traditional hai, Rajasthan ki yaadon se mila hua. Yeh sherwani pehen ke maharaja lagte ho.',
+'Hand embroidered by skilled karigars - Maroon rang - shadi ki shaan. Zardozi ka kaam puraana hai, traditional hai, Rajasthan ki yaadon se mila hua. Yeh sherwani pehen ke maharaja lagte ho.',
     fabric: 'Pure Silk',
     work: 'Zardozi Embroidery',
     occasion: 'Wedding, Engagement',
@@ -436,7 +436,7 @@ export const products: Product[] = [
     category: 'Kurta',
     collection: 'Festival Collection',
     description:
-      'Pooja house waali feeling - zari border wali kurta. Dhanteras waale din pehni toh mummy ne kaha "bahut sundar lag rahi hai". Ghar waalon ki pasand isse pehen ke dekho.',
+'Hand embroidered by skilled karigars - Pooja house waali feeling - zari border wali kurta. Dhanteras waale din pehni toh mummy ne kaha "bahut sundar lag rahi hai". Ghar waalon ki pasand isse pehen ke dekho.',
     fabric: 'Cotton Silk',
     work: 'Zari Border',
     occasion: 'Festivals, Poojas',
@@ -473,7 +473,7 @@ export const products: Product[] = [
     category: 'Sherwani',
     collection: 'Wedding Special',
     description:
-      'Day wedding ke liye ivory - morning mein Mehendi function, dulha baraat ki entry. Yeh sherwani photos mein itni acchi dikhti hai ki album waale ne poocha "kahan se laaya?"',
+'Hand embroidered by skilled karigars - Day wedding ke liye ivory - morning mein Mehendi function, dulha baraat ki entry. Yeh sherwani photos mein itni acchi dikhti hai ki album waale ne poocha "kahan se laaya?"',
     fabric: 'Silk Blend',
     work: 'Light Zari Work',
     occasion: 'Mehendi, Day Wedding',
@@ -501,7 +501,7 @@ export const products: Product[] = [
     category: 'Kurta',
     collection: 'Festival Collection',
     description:
-      'Black kurta - jab aap aur duniya dono ko impress karna ho. Parties mein yeh kurta pehno aur dekh lo kaise log type karte hain. Designer look without designer price tag.',
+'Hand embroidered by skilled karigars - Black kurta - jab aap aur duniya dono ko impress karna ho. Parties mein yeh kurta pehno aur dekh lo kaise log type karte hain. Designer look without designer price tag.',
     fabric: 'Premium Blend',
     work: 'Designer Embroidery',
     occasion: 'Parties, Celebrations',
@@ -541,7 +541,7 @@ export const products: Product[] = [
     category: 'Sherwani',
     collection: 'Wedding Special',
     description:
-      'Rajputana heritage ka sherwani - jaise Mewar ke maharaja pehente the. Heavy gold zardozi work, pure silk, aur woh dignity jo sirf rajasthani craft de sakti hai. Agar aapka style "royal" hai toh yeh sherwani aapke liye banayi gayi hai.',
+'Hand embroidered by skilled karigars - Rajputana heritage ka sherwani - jaise Mewar ke maharaja pehente the. Heavy gold zardozi work, pure silk, aur woh dignity jo sirf rajasthani craft de sakti hai. Agar aapka style "royal" hai toh yeh sherwani aapke liye banayi gayi hai.',
     fabric: 'Pure Silk',
     work: 'Heavy Gold Zardozi',
     occasion: 'Wedding, Reception',
@@ -569,7 +569,7 @@ export const products: Product[] = [
     category: 'Kurta',
     collection: 'Festival Collection',
     description:
-      'Garmi mein cool rehne waali kurta. Print unique hai - market mein same nahi milegi. Jo log standard kurte pehente hain, unse alag dikhna hai toh yeh lo.',
+'Hand embroidered by skilled karigars - Garmi mein cool rehne waali kurta. Print unique hai - market mein same nahi milegi. Jo log standard kurte pehente hain, unse alag dikhna hai toh yeh lo.',
     fabric: 'Pure Cotton',
     work: 'Screen Print',
     occasion: 'Daily Wear, Casual',
@@ -597,7 +597,7 @@ export const products: Product[] = [
     category: 'Sherwani',
     collection: 'Wedding Special',
     description:
-      'Engagement waali sherwani - haldi waale din pehnlo toh perfect. Modern cut hai, comfortable bhi hai, aur embroidery bhi hai. Complete package for engagement day.',
+'Hand embroidered by skilled karigars - Engagement waali sherwani - haldi waale din pehnlo toh perfect. Modern cut hai, comfortable bhi hai, aur embroidery bhi hai. Complete package for engagement day.',
     fabric: 'Silk Blend',
     work: 'Embroidery',
     occasion: 'Engagement, Festive',
@@ -625,7 +625,7 @@ export const products: Product[] = [
     category: 'Kurta',
     collection: 'Festival Collection',
     description:
-      'Pathani style kurta - Marathi-Southern touch ke saath. Jo log alag dikhte hain, unke liye yeh kurta. Match bindi pehen ke dekho, sabse stylish couple ho jayoge.',
+'Hand embroidered by skilled karigars - Pathani style kurta - Marathi-Southern touch ke saath. Jo log alag dikhte hain, unke liye yeh kurta. Match bindi pehen ke dekho, sabse stylish couple ho jayoge.',
     fabric: 'Silk Blend',
     work: 'Minimal',
     occasion: 'Casual, Semi-Formal',
@@ -665,7 +665,7 @@ export const products: Product[] = [
     category: 'Sherwani',
     collection: 'Wedding Special',
     description:
-      'Dulhe ka sherwani - jab dulha saja hai toh poore function ki shaan ban jaati hai. Yeh sherwani pehno jab aap "main dulha hoon" bolne ke mood mein ho. Zyada photos honge, zyada videos honge - is sherwani ki chamak sab captured rahegi.',
+'Hand embroidered by skilled karigars - Dulhe ka sherwani - jab dulha saja hai toh poore function ki shaan ban jaati hai. Yeh sherwani pehno jab aap "main dulha hoon" bolne ke mood mein ho. Zyada photos honge, zyada videos honge - is sherwani ki chamak sab captured rahegi.',
     fabric: 'Pure Silk',
     work: 'Ultra Heavy Zardozi',
     occasion: 'Wedding',
@@ -694,7 +694,7 @@ export const products: Product[] = [
     category: 'Kurta',
     collection: 'Festival Collection',
     description:
-      'Garmi mein bhigi hui hawa jaisi - light waali kurta. August-September mein ya monsoon ke baad, jab hawaein thandi ho jayein, tab is kurte ki jagah koi nahi le sakta.',
+'Hand embroidered by skilled karigars - Garmi mein bhigi hui hawa jaisi - light waali kurta. August-September mein ya monsoon ke baad, jab hawaein thandi ho jayein, tab is kurte ki jagah koi nahi le sakta.',
     fabric: 'Light Cotton',
     work: 'None',
     occasion: 'Summer Festivals, Casual',
@@ -722,7 +722,7 @@ export const products: Product[] = [
     category: 'Sherwani',
     collection: 'Wedding Special',
     description:
-      'Reception sherwani - jab shaam ko lights hon aur camera flash aaye, tab yeh sherwani chamkegi. Crystal stone work itna hai ki aap poore mandir ko reflect kar denge.',
+'Hand embroidered by skilled karigars - Reception sherwani - jab shaam ko lights hon aur camera flash aaye, tab yeh sherwani chamkegi. Crystal stone work itna hai ki aap poore mandir ko reflect kar denge.',
     fabric: 'Premium Silk',
     work: 'Crystal Stone Work',
     occasion: 'Reception, Evening Events',
@@ -750,7 +750,7 @@ export const products: Product[] = [
     category: 'Kurta',
     collection: 'Festival Collection',
     description:
-      'Asli Lucknowi Chikankari - jaisi dadi ke ghar mein milti thi. Pure hand embroidery, koi machine ka kaam nahi. Jo log authenticity value karte hain, unke liye yeh kurta.',
+'Hand embroidered by skilled karigars - Asli Lucknowi Chikankari - jaisi dadi ke ghar mein milti thi. Pure hand embroidery, koi machine ka kaam nahi. Jo log authenticity value karte hain, unke liye yeh kurta.',
     fabric: 'Cotton',
     work: 'Chikankari Hand Embroidery',
     occasion: 'Festivals, Casual',

@@ -231,6 +231,10 @@ export default function ProductsPage() {
                         style={{ objectFit: 'cover' }}
                       />
                       <div className="product-badges">
+                        {/* Hand Embroidered Badge - Primary USP */}
+                        <span className="badge" style={{background: '#D4AF37', color: '#1A1A1A', fontWeight: '600'}}>
+                          ✨ Hand Embroidered
+                        </span>
                         {product.trending && <span className="badge badge-trending">Trending</span>}
                         {product.originalPrice > product.price && (
                           <span className="badge badge-sale">

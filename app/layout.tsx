@@ -10,6 +10,7 @@ import QuickViewPopup from '@/components/popups/QuickViewPopup';
 import SizeGuidePopup from '@/components/popups/SizeGuidePopup';
 import LoginPopup from '@/components/popups/LoginPopup';
 import MobileMenu from '@/components/layout/MobileMenu';
+import WhatsAppButton from '@/components/ui/WhatsAppButton';
 
 export const metadata: Metadata = {
   title: 'LAQAB | Premium Ethnic Menswear - Sherwani, Kurta, Wedding Wear',
@@ -68,6 +69,7 @@ export default function RootLayout({
           <SizeGuidePopup />
           <LoginPopup />
           <MobileMenu />
+          <WhatsAppButton />
         </ReduxProvider>
       </body>
     </html>
