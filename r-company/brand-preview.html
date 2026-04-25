@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>R Company — Brand Preview</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #FFF8E7;
+    font-family: 'Playfair Display', serif;
+    color: #1A1A1A;
+    line-height: 1.6;
+  }
+
+  .preview {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+  /* === HEADER / LOGO SECTION === */
+  .header {
+    text-align: center;
+    padding: 60px 0;
+    border-bottom: 3px solid #D4AF37;
+    position: relative;
+  }
+
+  .header::after {
+    content: "✦ ✦ ✦";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #FFF8E7;
+    padding: 0 20px;
+    color: #D4AF37;
+    font-size: 14px;
+    letter-spacing: 8px;
+  }
+
+  .logo-r {
+    font-family: 'Cinzel', serif;
+    font-size: 120px;
+    font-weight: 900;
+    background: linear-gradient(135deg, #D4AF37 0%, #F5E6A3 30%, #D4AF37 60%, #B8860B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+    letter-spacing: -5px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .logo-r::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    border: 2px solid #D4AF37;
+    border-radius: 50%;
+    opacity: 0.3;
+  }
+
+  .company-name {
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #800020;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    margin-top: 15px;
+  }
+
+  .tagline {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #B8860B;
+    margin-top: 8px;
+    letter-spacing: 2px;
+  }
+
+  /* === ZARI DIVIDER === */
+  .zari-divider {
+    text-align: center;
+    padding: 30px 0;
+    color: #D4AF37;
+    font-size: 12px;
+    letter-spacing: 10px;
+    opacity: 0.6;
+  }
+
+  /* === PRODUCT SHOWCASE === */
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 40px 0;
+  }
+
+  .product-card {
+    background: white;
+    border: 1px solid #E8DDC8;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(128, 0, 32, 0.1);
+  }
+
+  .product-image {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    color: #D4AF37;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .product-image::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(135deg, #800020 0%, #4a0012 100%);
+    opacity: 0.9;
+  }
+
+  .product-image span {
+    position: relative;
+    z-index: 1;
+  }
+
+  .product-image .pattern {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background:
+      radial-gradient(circle at 30% 40%, #D4AF37 1px, transparent 1px),
+      radial-gradient(circle at 70% 60%, #D4AF37 1px, transparent 1px);
+    background-size: 40px 40px;
+    opacity: 0.2;
+  }
+
+  .product-info {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .product-title {
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #800020;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .product-desc {
+    font-size: 13px;
+    color: #666;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  .product-price {
+    font-family: 'Cinzel', serif;
+    font-size: 16px;
+    color: #D4AF37;
+    margin-top: 10px;
+    font-weight: 700;
+  }
+
+  /* === BRAND VALUES === */
+  .values {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 50px 0;
+  }
+
+  .value-card {
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #E8DDC8;
+    background: white;
+  }
+
+  .value-icon {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .value-title {
+    font-family: 'Cinzel', serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #800020;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .value-desc {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    font-style: italic;
+  }
+
+  /* === TESTIMONIAL === */
+  .testimonial {
+    text-align: center;
+    padding: 50px 40px;
+    margin: 40px 0;
+    border-left: 3px solid #D4AF37;
+    border-right: 3px solid #D4AF37;
+    background: linear-gradient(135deg, rgba(212,175,55,0.05), rgba(128,0,32,0.05));
+  }
+
+  .testimonial-text {
+    font-size: 22px;
+    font-style: italic;
+    color: #333;
+    line-height: 1.8;
+  }
+
+  .testimonial-text::before { content: "\201C"; font-size: 60px; color: #D4AF37; line-height: 0; vertical-align: -20px; margin-right: 5px; }
+  .testimonial-text::after { content: "\201D"; font-size: 60px; color: #D4AF37; line-height: 0; vertical-align: -15px; margin-left: 5px; }
+
+  .testimonial-author {
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    color: #800020;
+    margin-top: 20px;
+    letter-spacing: 3px;
+  }
+
+  /* === CTA SECTION === */
+  .cta {
+    text-align: center;
+    padding: 60px 0;
+    background: linear-gradient(135deg, #800020, #4a0012);
+    margin: 40px 0;
+    border-radius: 4px;
+  }
+
+  .cta h2 {
+    font-family: 'Cinzel', serif;
+    color: #D4AF37;
+    font-size: 28px;
+    letter-spacing: 4px;
+    font-weight: 700;
+  }
+
+  .cta p {
+    color: #FFF8E7;
+    font-style: italic;
+    margin-top: 15px;
+    font-size: 18px;
+    opacity: 0.9;
+  }
+
+  .cta-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 40px;
+    border: 2px solid #D4AF37;
+    color: #D4AF37;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s;
+    background: transparent;
+  }
+
+  .cta-button:hover {
+    background: #D4AF37;
+    color: #800020;
+  }
+
+  /* === FOOTER === */
+  .footer {
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid #E8DDC8;
+    color: #B8860B;
+    font-style: italic;
+    font-size: 14px;
+  }
+
+  /* === RESPONSIVE === */
+  @media (max-width: 650px) {
+    .products { grid-template-columns: 1fr; }
+    .values { grid-template-columns: 1fr; }
+    .logo-r { font-size: 80px; }
+    .company-name { font-size: 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="preview">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo-r">R</div>
+    <div class="company-name">R Company</div>
+    <div class="tagline">✦ Threads That Tell Stories ✦</div>
+  </div>
+
+  <div class="zari-divider">✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦</div>
+
+  <!-- BRAND MESSAGE -->
+  <div class="testimonial">
+    <div class="testimonial-text">
+      Where tradition meets you. Every thread, hand-picked. Every piece, hand-crafted. Every story, yours.
+    </div>
+    <div class="testimonial-author">— Kaif Ashraf, Founder</div>
+  </div>
+
+  <!-- PRODUCTS -->
+  <h2 style="font-family:'Cinzel'; text-align:center; color:#800020; letter-spacing:4px; font-size:18px; margin-bottom:10px;">THE COLLECTION</h2>
+  <p style="text-align:center; font-style:italic; color:#B8860B; margin-bottom:30px; font-size:14px;">Crafted for moments that matter</p>
+
+  <div class="products">
+    <div class="product-card">
+      <div class="product-image">
+        <div class="pattern"></div>
+        <span>Sherwani</span>
+      </div>
+      <div class="product-info">
+        <div class="product-title">Royal Zari Sherwani</div>
+        <div class="product-desc">Hand-embroidered gold thread on premium silk</div>
+        <div class="product-price">Custom Quote</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-image">
+        <div class="pattern"></div>
+        <span>Kurta</span>
+      </div>
+      <div class="product-info">
+        <div class="product-title">Heritage Kurta Set</div>
+        <div class="product-desc">Traditional zari work, modern silhouette</div>
+        <div class="product-price">Custom Quote</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-image">
+        <div class="pattern"></div>
+        <span>Dupatta</span>
+      </div>
+      <div class="product-info">
+        <div class="product-title">Bridal Zari Dupatta</div>
+        <div class="product-desc">Handwoven gold, for the walk you'll never forget</div>
+        <div class="product-price">Custom Quote</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VALUES -->
+  <h2 style="font-family:'Cinzel'; text-align:center; color:#800020; letter-spacing:4px; font-size:18px; margin-bottom:10px;">WHY R COMPANY</h2>
+  <p style="text-align:center; font-style:italic; color:#B8860B; margin-bottom:30px; font-size:14px;">Five reasons they choose us</p>
+
+  <div class="values">
+    <div class="value-card">
+      <div class="value-icon">🧵</div>
+      <div class="value-title">One Piece, One Story</div>
+      <div class="value-desc">No mass production. Every order is individually handcrafted.</div>
+    </div>
+    <div class="value-card">
+      <div class="value-icon">🤝</div>
+      <div class="value-title">Direct From Karigar</div>
+      <div class="value-desc">No middleman. You pay for the craft, not the markup.</div>
+    </div>
+    <div class="value-card">
+      <div class="value-icon">✨</div>
+      <div class="value-title">Custom To Your Vision</div>
+      <div class="value-desc">Send a photo. Get a quote. Your design, our expertise.</div>
+    </div>
+    <div class="value-card">
+      <div class="value-icon">🌟</div>
+      <div class="value-title">Gold That Lasts</div>
+      <div class="value-desc">Premium thread. No fade. No tarnish. No disappointment.</div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta">
+    <h2>Ready to Weave Your Story?</h2>
+    <p>"The thread is waiting. The gold is ready. You just have to say yes."</p>
+    <a href="#" class="cta-button">Order Now</a>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    R Company — Ahmedabad, Gujarat<br>
+    <span style="font-size:12px;">Where tradition meets you.</span><br><br>
+    <span style="font-size:11px; color:#ccc;">JARVIS · April 2026</span>
+  </div>
+
+</div>
+</body>
+</html>
