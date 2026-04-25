@@ -13,31 +13,40 @@ import MobileMenu from '@/components/layout/MobileMenu';
 import WhatsAppButton from '@/components/ui/WhatsAppButton';
 
 export const metadata: Metadata = {
-  title: 'LAQAB | Premium Ethnic Menswear - Sherwani, Kurta, Wedding Wear',
+  title: 'LAQAB - Hand Embroidered Sherwani & Ethnic Wear | Ahmedabad, India',
   description:
-    'Discover exquisite ethnic menswear at LAQAB. Shop premium sherwanis, kurtas, and wedding wear crafted with traditional Indian artistry. Worldwide shipping available.',
+    'Premium hand embroidered sherwani, kurta, bandhgala by skilled karigars. Custom orders available in 15-25 days. Shop authentic Indian ethnic wear. Worldwide shipping.',
   keywords:
-    'sherwani, kurta, ethnic menswear, wedding sherwani, Indian fashion, mens ethnic wear, gold sherwani, silk kurta',
+    'hand embroidered sherwani, zari work, ethnic menswear, wedding sherwani, custom sherwani, kurta, bandhgala, Ahmedabad, India, karigar, handcraft, hand embroidery',
   authors: [{ name: 'LAQAB' }],
   openGraph: {
-    title: 'LAQAB | Premium Ethnic Menswear',
+    title: 'LAQAB - Hand Embroidered Ethnic Wear | Ahmedabad',
     description:
-      'Discover exquisite ethnic menswear. Premium sherwanis, kurtas, and wedding wear.',
+      'Premium hand embroidered sherwani, kurta, bandhgala by skilled karigars. Custom orders welcome. 15-25 days delivery.',
     type: 'website',
-    locale: 'en_US',
+    locale: 'en_IN',
     siteName: 'LAQAB',
+    images: [{
+      url: 'https://kaifashraff.github.io/laqab-v2/og-image.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'LAQAB - Hand Embroidered Ethnic Wear',
+    }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'LAQAB | Premium Ethnic Menswear',
+    title: 'LAQAB - Hand Embroidered Sherwani & Ethnic Wear',
     description:
-      'Discover exquisite ethnic menswear. Premium sherwanis, kurtas, and wedding wear.',
+      'Premium hand embroidered sherwani, kurta, bandhgala by skilled karigars. Custom orders available.',
   },
   robots: {
     index: true,
     follow: true,
   },
   viewport: 'width=device-width, initial-scale=1',
+  alternates: {
+    canonical: 'https://kaifashraff.github.io/laqab-v2/',
+  },
 };
 
 export default function RootLayout({

@@ -58,7 +58,7 @@ export default function ProductDetailClient() {
             <div className="main-image">
               <Image
                 src={product.images[activeImage]}
-                alt={product.name}
+                alt={`Hand Embroidered ${product.name} by LAQAB - ${product.work}`}
                 width={600}
                 height={750}
                 priority
@@ -77,7 +77,7 @@ export default function ProductDetailClient() {
                 >
                   <Image
                     src={image}
-                    alt={`${product.name} - Image ${index + 1}`}
+                    alt={`Hand Embroidered ${product.name} - View ${index + 1}`}
                     width={100}
                     height={125}
                     style={{ objectFit: 'cover' }}
@@ -345,7 +345,7 @@ export default function ProductDetailClient() {
                   <Link href={`/products/${relatedProduct.slug}`}>
                     <Image
                       src={relatedProduct.images[0]}
-                      alt={relatedProduct.name}
+                      alt={`Hand Embroidered ${relatedProduct.name} by LAQAB`}
                       width={300}
                       height={400}
                       style={{ objectFit: 'cover' }}

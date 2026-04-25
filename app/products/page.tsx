@@ -225,7 +225,7 @@ export default function ProductsPage() {
                     <div className="product-image">
                       <Image
                         src={product.images[0]}
-                        alt={product.name}
+                        alt={`Hand Embroidered ${product.name} by LAQAB - ${product.work}`}
                         width={300}
                         height={400}
                         style={{ objectFit: 'cover' }}
