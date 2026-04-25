@@ -26,6 +26,19 @@ export default function ContactPage() {
 
   return (
     <div className="contact-page">
+      {/* Hand Embroidered USP Banner */}
+      <div className="w-full bg-gradient-to-r from-[#800020] via-[#800020] to-[#6B001A] py-3 px-4 text-center">
+        <p className="text-[#FFF8E7] text-sm md:text-base font-medium">
+          <span className="text-[#D4AF37]">✨ Hand Embroidered by Skilled Karigars</span>
+          {' | '}
+          <span>Custom Orders Welcome</span>
+          {' | '}
+          <span>15-25 Days Delivery</span>
+          {' | '}
+          <a href="https://wa.me/919876543210" className="ml-2 text-[#D4AF37] underline">WhatsApp: +91 98765 43210</a>
+        </p>
+      </div>
+
       <div className="container">
         <div className="page-header">
           <h1>Contact Karo</h1>
