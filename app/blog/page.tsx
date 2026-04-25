@@ -19,6 +19,15 @@ const blogPosts = [
     readTime: '8 min read',
     category: 'Craftsmanship Guide',
   },
+  {
+    slug: 'wedding-sherwani-guide-2026',
+    title: 'Wedding Sherwani Guide 2026: Styles, Trends & Expert Tips',
+    excerpt: 'Complete guide to wedding sherwani styles, 2026 trends, color selection, and styling tips.',
+    image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80',
+    date: 'April 25, 2026',
+    readTime: '10 min read',
+    category: 'Wedding Guide',
+  },
 ];
 
 export default function BlogIndexPage() {
