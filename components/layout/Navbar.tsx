@@ -88,6 +88,9 @@ export default function Navbar() {
                 <Link href="/about" className="navbar-link">About</Link>
               </li>
               <li className="navbar-item">
+                <Link href="/blog" className="navbar-link">Blog</Link>
+              </li>
+              <li className="navbar-item">
                 <Link href="/contact" className="navbar-link">Contact</Link>
               </li>
             </ul>
